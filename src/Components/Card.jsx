@@ -6,10 +6,10 @@ function Card(props) {
     return (
         <div className="card">
             <h1 className="card__title">{title}</h1>
-            <img className="card__image" src={image}></img>
+            <img className="card__image" alt="image de produit" src={image}></img>
             <p className="card__description">{description}</p>
         </div>
     )
 }
 
-export default Card
+export default Card;

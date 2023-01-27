@@ -10,7 +10,7 @@ function App() {
 },
 {
     title: "Oeuf",
-    image: 'https://media.carrefour.fr/medias/454cc08815263e56b9aee2974d8db5b5/p_200x200/3560071098285-0.jpg',
+    image: 'https://media.carrefour.fr/medias/454cc08815263e56b9aee2974d8db5b5/p_200x200/3560071098285-0.jpg', 
     description: 'Des oeufs :/',
 }]
 );
