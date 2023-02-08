@@ -16,8 +16,8 @@ function App() {
 );
   return (
     <div className="App">
-      {articles.map((article) => {
-      return <Card title={article.title} image={article.image} description={article.description} />
+      {articles.map((article, index) => {
+      return <Card key={index} title={article.title} image={article.image} description={article.description} />
       })}
     </div>
   );
